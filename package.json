@@ -1,0 +1,40 @@
+{
+  "name": "access-utility",
+  "version": "1.0.0",
+  "description": "Access Utility Application for Budgetting Control",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itssadon/access-utility.git"
+  },
+  "keywords": [
+    "Utility",
+    "Budget",
+    "Controlled",
+    "access",
+    "Payment",
+    "Banking",
+    "Wallet"
+  ],
+  "author": "Sadiq Hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itssadon/access-utility/issues"
+  },
+  "homepage": "https://github.com/itssadon/access-utility#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.11.2",
+    "nodemailer": "^4.0.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  }
+}
